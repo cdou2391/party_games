@@ -15,13 +15,14 @@ function RequireAuth({ children }: { children: React.ReactNode }) {
   return token ? <>{children}</> : <Navigate to="/" replace />;
 }
 
-function AppSplash() {
+function AppSplash({ ready }: { ready: boolean }) {
   const [exit, setExit] = useState(false);
 
   useEffect(() => {
+    if (!ready) return;
     const t = setTimeout(() => setExit(true), 900);
     return () => clearTimeout(t);
-  }, []);
+  }, [ready]);
 
   return (
     <AnimatePresence>
@@ -35,26 +36,10 @@ function AppSplash() {
         >
           <div className="text-6xl mb-4 animate-bounce">🎮</div>
           <p className="text-white font-extrabold text-2xl tracking-wide">Party Games</p>
-          <p className="text-white/40 text-sm mt-2">Get ready…</p>
+          <p className="text-white/40 text-sm mt-2">{ready ? "Get ready…" : "Loading…"}</p>
         </motion.div>
       )}
     </AnimatePresence>
-  );
-}
-
-function AppLoading() {
-  return (
-    <div className="min-h-screen bg-gradient-to-br from-brand-900 via-brand-700 to-purple-500 flex flex-col items-center justify-center gap-6">
-      <div className="relative w-20 h-20">
-        <div className="absolute inset-0 rounded-full border-4 border-white/20" />
-        <div className="absolute inset-0 rounded-full border-4 border-t-white border-r-transparent border-b-transparent border-l-transparent animate-spin" />
-        <div className="absolute inset-3 rounded-full border-4 border-b-white/50 border-t-transparent border-r-transparent border-l-transparent animate-spin [animation-duration:600ms] [animation-direction:reverse]" />
-      </div>
-      <div className="text-center">
-        <p className="text-white font-extrabold text-2xl tracking-wide">Party Games</p>
-        <p className="text-white/40 text-sm mt-1">Loading…</p>
-      </div>
-    </div>
   );
 }
 
@@ -70,11 +55,9 @@ export default function App() {
       .finally(() => setBooting(false));
   }, []);
 
-  if (booting) return <AppLoading />;
-
   return (
     <BrowserRouter>
-      <AppSplash />
+      <AppSplash ready={!booting} />
       <Routes>
         <Route path="/"        element={<Home />} />
         <Route path="/login"   element={<Login />} />
