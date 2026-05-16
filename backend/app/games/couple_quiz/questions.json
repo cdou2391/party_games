@@ -1,0 +1,363 @@
+[
+  {
+    "id": 1,
+    "category": "The Beginning",
+    "question": "Where did the couple first meet?",
+    "answer": "At a friend's party",
+    "type": "text"
+  },
+  {
+    "id": 2,
+    "category": "The Beginning",
+    "question": "Who made the first move?",
+    "answer": "Alix",
+    "type": "choice",
+    "options": ["Alix", "Willy", "It was mutual"]
+  },
+  {
+    "id": 3,
+    "category": "The Beginning",
+    "question": "Where was their first date?",
+    "answer": "A rooftop restaurant",
+    "type": "text"
+  },
+  {
+    "id": 4,
+    "category": "The Beginning",
+    "question": "Who said 'I love you' first?",
+    "answer": "Willy",
+    "type": "choice",
+    "options": ["Alix", "Willy", "They said it at the same time"]
+  },
+  {
+    "id": 5,
+    "category": "The Beginning",
+    "question": "How long had they known each other before they started dating?",
+    "answer": "6 months",
+    "type": "text"
+  },
+  {
+    "id": 6,
+    "category": "The Beginning",
+    "question": "What was the first movie they watched together?",
+    "answer": "The Notebook",
+    "type": "text"
+  },
+  {
+    "id": 7,
+    "category": "The Beginning",
+    "question": "What was Alix's first impression of Willy?",
+    "answer": "Way too charming to be real",
+    "type": "text"
+  },
+  {
+    "id": 8,
+    "category": "The Beginning",
+    "question": "What song do they consider 'their song'?",
+    "answer": "Perfect by Ed Sheeran",
+    "type": "text"
+  },
+
+  {
+    "id": 9,
+    "category": "Daily Life",
+    "question": "Who wakes up first in the morning?",
+    "answer": "Alix",
+    "type": "choice",
+    "options": ["Alix", "Willy", "They wake up at the same time"]
+  },
+  {
+    "id": 10,
+    "category": "Daily Life",
+    "question": "Who does most of the cooking?",
+    "answer": "Willy",
+    "type": "choice",
+    "options": ["Alix", "Willy", "They share it equally"]
+  },
+  {
+    "id": 11,
+    "category": "Daily Life",
+    "question": "Who takes longer to get ready?",
+    "answer": "Willy",
+    "type": "choice",
+    "options": ["Alix", "Willy", "About the same"]
+  },
+  {
+    "id": 12,
+    "category": "Daily Life",
+    "question": "Who is more likely to be late?",
+    "answer": "Alix",
+    "type": "choice",
+    "options": ["Alix", "Willy", "Both are always late"]
+  },
+  {
+    "id": 13,
+    "category": "Daily Life",
+    "question": "Who controls the TV remote?",
+    "answer": "Alix",
+    "type": "choice",
+    "options": ["Alix", "Willy", "It's a constant battle"]
+  },
+  {
+    "id": 14,
+    "category": "Daily Life",
+    "question": "Who is messier?",
+    "answer": "Alix",
+    "type": "choice",
+    "options": ["Alix", "Willy", "They're both equally messy"]
+  },
+  {
+    "id": 15,
+    "category": "Daily Life",
+    "question": "What is their go-to takeout order?",
+    "answer": "Sushi",
+    "type": "text"
+  },
+  {
+    "id": 16,
+    "category": "Daily Life",
+    "question": "Who is more likely to start an argument over something small?",
+    "answer": "It depends on the day",
+    "type": "choice",
+    "options": ["Alix", "Willy", "It depends on the day"]
+  },
+  {
+    "id": 17,
+    "category": "Daily Life",
+    "question": "What is their favorite thing to do together on weekends?",
+    "answer": "Brunch and hiking",
+    "type": "text"
+  },
+  {
+    "id": 18,
+    "category": "Daily Life",
+    "question": "Who spends more money?",
+    "answer": "Willy",
+    "type": "choice",
+    "options": ["Alix", "Willy", "They're both guilty"]
+  },
+
+  {
+    "id": 19,
+    "category": "Personality & Quirks",
+    "question": "What is Alix's most annoying habit according to Willy?",
+    "answer": "Leaving cabinet doors open",
+    "type": "text"
+  },
+  {
+    "id": 20,
+    "category": "Personality & Quirks",
+    "question": "What is Willy's most annoying habit according to Alix?",
+    "answer": "Taking forever to reply to texts",
+    "type": "text"
+  },
+  {
+    "id": 21,
+    "category": "Personality & Quirks",
+    "question": "Who is the better driver?",
+    "answer": "Alix",
+    "type": "choice",
+    "options": ["Alix", "Willy", "Neither — it's terrifying either way"]
+  },
+  {
+    "id": 22,
+    "category": "Personality & Quirks",
+    "question": "Who is more likely to cry at a movie?",
+    "answer": "Willy",
+    "type": "choice",
+    "options": ["Alix", "Willy", "Both of them, every time"]
+  },
+  {
+    "id": 23,
+    "category": "Personality & Quirks",
+    "question": "Who is the better dancer?",
+    "answer": "Neither should be allowed near a dance floor",
+    "type": "choice",
+    "options": ["Alix", "Willy", "Neither should be allowed near a dance floor"]
+  },
+  {
+    "id": 24,
+    "category": "Personality & Quirks",
+    "question": "Who is more stubborn?",
+    "answer": "They're both immovable",
+    "type": "choice",
+    "options": ["Alix", "Willy", "They're both immovable"]
+  },
+  {
+    "id": 25,
+    "category": "Personality & Quirks",
+    "question": "What is the couple's biggest shared guilty pleasure?",
+    "answer": "Reality TV marathons",
+    "type": "text"
+  },
+  {
+    "id": 26,
+    "category": "Personality & Quirks",
+    "question": "Who is more likely to get hangry?",
+    "answer": "Alix",
+    "type": "choice",
+    "options": ["Alix", "Willy", "You don't want to find out"]
+  },
+
+  {
+    "id": 27,
+    "category": "The Relationship",
+    "question": "What is the couple's favorite travel destination they've visited together?",
+    "answer": "Santorini",
+    "type": "text"
+  },
+  {
+    "id": 28,
+    "category": "The Relationship",
+    "question": "What is the biggest trip they have planned together?",
+    "answer": "Japan",
+    "type": "text"
+  },
+  {
+    "id": 29,
+    "category": "The Relationship",
+    "question": "What was the couple's first big argument about?",
+    "answer": "Who forgot to book the restaurant",
+    "type": "text"
+  },
+  {
+    "id": 30,
+    "category": "The Relationship",
+    "question": "How did Alix propose (or how did it happen)?",
+    "answer": "On a beach at sunset in Bali",
+    "type": "text"
+  },
+  {
+    "id": 31,
+    "category": "The Relationship",
+    "question": "What is the most romantic thing Alix has ever done for Willy?",
+    "answer": "Flew to surprise them on their birthday",
+    "type": "text"
+  },
+  {
+    "id": 32,
+    "category": "The Relationship",
+    "question": "What is the most romantic thing Willy has ever done for Alix?",
+    "answer": "Planned a scavenger hunt with photos of their relationship",
+    "type": "text"
+  },
+  {
+    "id": 33,
+    "category": "The Relationship",
+    "question": "What is something Alix does that always makes Willy smile?",
+    "answer": "Leaves little notes around the house",
+    "type": "text"
+  },
+  {
+    "id": 34,
+    "category": "The Relationship",
+    "question": "What is Willy's love language?",
+    "answer": "Quality Time",
+    "type": "choice",
+    "options": ["Words of Affirmation", "Acts of Service", "Receiving Gifts", "Quality Time", "Physical Touch"]
+  },
+
+  {
+    "id": 35,
+    "category": "The Future",
+    "question": "How many kids does the couple want?",
+    "answer": "2",
+    "type": "text"
+  },
+  {
+    "id": 36,
+    "category": "The Future",
+    "question": "Where does the couple dream of living one day?",
+    "answer": "By the sea in Portugal",
+    "type": "text"
+  },
+  {
+    "id": 37,
+    "category": "The Future",
+    "question": "What is one goal the couple wants to achieve together in the next 5 years?",
+    "answer": "Buy their first home",
+    "type": "text"
+  },
+  {
+    "id": 38,
+    "category": "The Future",
+    "question": "What pet do they want (or already have)?",
+    "answer": "A golden retriever",
+    "type": "text"
+  },
+  {
+    "id": 39,
+    "category": "The Future",
+    "question": "Where is the honeymoon?",
+    "answer": "Maldives",
+    "type": "text"
+  },
+  {
+    "id": 40,
+    "category": "The Future",
+    "question": "What is one thing Alix is most excited about in married life?",
+    "answer": "Finally sharing a surname",
+    "type": "text"
+  },
+
+  {
+    "id": 41,
+    "category": "Spicy Round 🌶️",
+    "question": "Who is more adventurous in the kitchen… and outside of it?",
+    "answer": "Willy",
+    "type": "choice",
+    "options": ["Alix", "Willy", "Neither, they're both very proper"]
+  },
+  {
+    "id": 42,
+    "category": "Spicy Round 🌶️",
+    "question": "Who was the bigger player before they got together?",
+    "answer": "They were both disasters",
+    "type": "choice",
+    "options": ["Alix", "Willy", "They were both disasters"]
+  },
+  {
+    "id": 43,
+    "category": "Spicy Round 🌶️",
+    "question": "What is the most embarrassing thing Alix has done in front of Willy?",
+    "answer": "Fell asleep during their first fancy dinner",
+    "type": "text"
+  },
+  {
+    "id": 44,
+    "category": "Spicy Round 🌶️",
+    "question": "What is the strangest place they have ever argued?",
+    "answer": "IKEA — twice",
+    "type": "text"
+  },
+  {
+    "id": 45,
+    "category": "Spicy Round 🌶️",
+    "question": "Who is more likely to sneak a look at the other's phone?",
+    "answer": "Both of them — no secrets here",
+    "type": "choice",
+    "options": ["Alix", "Willy", "Both of them — no secrets here"]
+  },
+  {
+    "id": 46,
+    "category": "Spicy Round 🌶️",
+    "question": "What is the one thing Willy does that Alix pretends not to notice but absolutely does?",
+    "answer": "Steals all the blanket at night",
+    "type": "text"
+  },
+  {
+    "id": 47,
+    "category": "Spicy Round 🌶️",
+    "question": "Who said 'I love you' without meaning to the first time?",
+    "answer": "Alix",
+    "type": "choice",
+    "options": ["Alix", "Willy", "They both played it cool"]
+  },
+  {
+    "id": 48,
+    "category": "Spicy Round 🌶️",
+    "question": "What is the wildest thing they have done together?",
+    "answer": "Spontaneous road trip to another country with no plan",
+    "type": "text"
+  }
+]

@@ -1,0 +1,38 @@
+# ── Secrets ───────────────────────────────────────────────────────────────────
+backend/.env
+security_audit_report.md
+.env.local
+.env.*.local
+
+# ── Python ────────────────────────────────────────────────────────────────────
+backend/.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ── Alembic ───────────────────────────────────────────────────────────────────
+# Keep migration scripts; ignore only their compiled caches
+alembic/versions/__pycache__/
+
+# ── Frontend ──────────────────────────────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/tsconfig.tsbuildinfo
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
